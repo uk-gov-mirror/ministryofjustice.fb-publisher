@@ -72,3 +72,52 @@
     }
   }
 }
+
+.header-wrapper {
+  .header-logo {
+    padding-left: 10px;
+  }
+
+  .moj-header__link:hover {
+    border-color: #ffffff;
+  }
+
+  .moj-header__link:link,
+  .moj-header__link:visited,
+  .moj-header__link:hover,
+  .moj-header__link:active {
+      color: #ffffff;
+  }
+
+  .moj-header__link {
+    display: inline-block;
+    line-height: 25px;
+    margin-bottom: -1px;
+    vertical-align: middle;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  @media (min-width: 40.0625em) {
+    .moj-header__link--organisation-name {
+      font-size: 1.5rem;
+      line-height: 1.25;
+    }
+  }
+
+  .moj-header__link--organisation-name {
+    font-family: "GDS Transport", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.11111;
+    vertical-align: middle;
+  }
+
+  .moj-header__logotype-crest {
+    position: relative;
+    top: -6px;
+    margin-right: 5px;
+    vertical-align: top;
+  }
+}

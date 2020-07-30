@@ -67,6 +67,7 @@ en:
         You’ll need a <span class="domain">digital.justice.gov.uk</span> email to sign in.
   layouts:
     application:
+      global_header_text: Ministry of Justice
       logo_link_title: Form Publisher home
       title: "Form Builder Publisher"
     dev_tools:
